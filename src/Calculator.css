@@ -15,18 +15,20 @@
   
   .input {
     font-size: 1.5em;
+    color: azure;
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid rgb(207, 206, 206);
   }
   
   .result {
     font-size: 1.2em;
     padding: 5px;
-    color: #888;
+    color: #f6f6f6;
   }
   
   .buttons {
     display: grid;
+    color: #ccc;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
